@@ -1,0 +1,28 @@
+SET search_path to manager_lotniczy;
+
+INSERT INTO lotnisko ("ICAO", "IATA", "nazwa", "miasto") VALUES
+('EGLL', 'LHR', 'Heathrow Airport', 'Londyn'),
+('LFPG', 'CDG', 'Charles de Gaulle Airport', 'Paryż'),
+('LEMD', 'MAD', 'Adolfo Suárez Madrid–Barajas Airport', 'Madryt'),
+('EDDF', 'FRA', 'Frankfurt Airport', 'Frankfurt'),
+('LEBL', 'BCN', 'Barcelona–El Prat Airport', 'Barcelona'),
+('EHAM', 'AMS', 'Amsterdam Airport Schiphol', 'Amsterdam'),
+('LSZH', 'ZRH', 'Zürich Airport', 'Zurych'),
+('LFPO', 'ORY', 'Orly Airport', 'Paryż'),
+('LIRF', 'FCO', 'Leonardo da Vinci–Fiumicino Airport', 'Rzym'),
+('EGKK', 'LGW', 'Gatwick Airport', 'Londyn'),
+('LEPA', 'PMI', 'Palma de Mallorca Airport', 'Palma'),
+('LIMC', 'MXP', 'Malpensa Airport', 'Mediolan'),
+('ENGM', 'OSL', 'Oslo Gardermoen Airport', 'Oslo'),
+('ESSA', 'ARN', 'Stockholm Arlanda Airport', 'Sztokholm'),
+('LFLL', 'LYS', 'Lyon–Saint-Exupéry Airport', 'Lyon'),
+('LPPT', 'LIS', 'Lisbon Airport', 'Lizbona'),
+('LKPR', 'PRG', 'Václav Havel Airport Prague', 'Praga'),
+('LEMG', 'AGP', 'Málaga Airport', 'Málaga'),
+('LROP', 'OTP', 'Henri Coandă International Airport', 'Bukareszt'),
+('LFML', 'MRS', 'Marseille Provence Airport', 'Marsylia'),
+('EPKK', 'KRK', 'Kraków Airport', 'Kraków'),
+('EPGD', 'GDN', 'Gdańsk Lech Wałęsa Airport', 'Gdańsk'),
+('EPKT', 'KTW', 'Katowice Airport', 'Katowice'),
+('EPPO', 'POZ', 'Poznań-Ławica Henryk Wieniawski Airport', 'Poznań'),
+('EPWA', 'WAW', 'Warsaw Chopin Airport', 'Warszawa');
