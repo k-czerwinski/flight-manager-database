@@ -173,7 +173,7 @@ ALTER TABLE "pracownik_lotnisko_funkcja" ADD FOREIGN KEY ("lotnisko_ICAO") REFER
 
 ALTER TABLE "pracownik_lotnisko_funkcja" ADD FOREIGN KEY ("funkcja_id") REFERENCES "funkcja_pracownika_lotnisko" ("id");
 
--- BELOW ADDITIONAL CONSTRAINTS NOT GENERATED AUTOAMATICALLY
+-- BELOW ADDITIONAL CONSTRAINTS NOT GENERATED AUTOAMATICALLYoraz
 
 ALTER TABLE "lot_data_samolot" ADD CONSTRAINT CONSTRAINT_TWO_OTHER_PILOTS CHECK ("pilot_1_id" <> "pilot_2_id");
 
